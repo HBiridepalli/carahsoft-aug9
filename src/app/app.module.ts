@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LandingComponent } from './landing/landing.component';
 import { AllSolutionsComponent } from './all-solutions/all-solutions.component';
+import { MulticloudComponent } from './multicloud/multicloud.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, MatCardModule],
@@ -16,7 +17,7 @@ import { AllSolutionsComponent } from './all-solutions/all-solutions.component';
     HeaderComponent,
     FooterComponent,
     LandingComponent,
-    AllSolutionsComponent
+    AllSolutionsComponent, MulticloudComponent
   ],
   bootstrap: [AppComponent],
   providers: [],
