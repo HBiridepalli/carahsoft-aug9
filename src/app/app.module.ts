@@ -7,6 +7,7 @@ import { MatCardModule } from '@angular/material/card';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { LandingComponent } from './landing/landing.component';
+import { AllSolutionsComponent } from './all-solutions/all-solutions.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, MatCardModule],
@@ -15,6 +16,7 @@ import { LandingComponent } from './landing/landing.component';
     HeaderComponent,
     FooterComponent,
     LandingComponent,
+    AllSolutionsComponent
   ],
   bootstrap: [AppComponent],
   providers: [],
