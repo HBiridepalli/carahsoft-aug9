@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { LandingComponent } from './landing/landing.component';
 import { AllSolutionsComponent } from './all-solutions/all-solutions.component';
 import { MulticloudComponent } from './multicloud/multicloud.component';
+import { MicrosoftProductsComponent } from './microsoft-products/microsoft-products.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, MatCardModule],
@@ -17,7 +18,7 @@ import { MulticloudComponent } from './multicloud/multicloud.component';
     HeaderComponent,
     FooterComponent,
     LandingComponent,
-    AllSolutionsComponent, MulticloudComponent
+    AllSolutionsComponent, MulticloudComponent, MicrosoftProductsComponent
   ],
   bootstrap: [AppComponent],
   providers: [],
